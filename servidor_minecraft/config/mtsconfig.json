@@ -126,13 +126,15 @@
     },
     "packVehicleScales": {
       "value": {
-        "mts": 1.0
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
       },
       "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
     },
     "packSpeedFactors": {
       "value": {
-        "mts": 1.0
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
       },
       "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
     },
@@ -219,7 +221,8 @@
     },
     "packBulletDamageFactors": {
       "value": {
-        "mts": 1.0
+        "mts": 1.0,
+        "mtsofficialpack": 1.0
       },
       "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
     }
@@ -236,6 +239,22 @@
       },
       "brewing_stand": {
         "lava": 1.0
+      },
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
       }
     }
   }
