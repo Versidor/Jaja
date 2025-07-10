@@ -1,144 +1,90 @@
-[09Jul2025 17:15:02.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[09Jul2025 17:15:02.801] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[09Jul2025 17:15:08.808] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Jaja/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
-[09Jul2025 17:15:09.485] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
-[09Jul2025 17:15:09.487] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[09Jul2025 17:15:09.488] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[09Jul2025 17:15:09.489] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[09Jul2025 17:15:09.923] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[09Jul2025 17:15:12.582] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
-[09Jul2025 17:15:12.591] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09Jul2025 17:15:12.630] [main/ERROR] [mixin/]: Mixin config cameraoverhaul.mixins.json does not specify "minVersion" property
-[09Jul2025 17:15:12.656] [main/ERROR] [mixin/]: Mixin config noseenotick.mixins.json does not specify "minVersion" property
-[09Jul2025 17:15:12.769] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [mcinterface1192.mixin.MixinConnector]
-[09Jul2025 17:15:12.770] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[09Jul2025 17:15:12.967] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
-[09Jul2025 17:15:12.972] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[09Jul2025 17:15:13.103] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[09Jul2025 17:15:13.139] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 81 options available, 0 override(s) found
-[09Jul2025 17:15:13.155] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jul2025 17:15:14.847] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
-[09Jul2025 17:15:14.850] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
-[09Jul2025 17:15:14.852] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found cameraoverhaul.mixins.json:CameraMixin
-[09Jul2025 17:15:14.862] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
-[09Jul2025 17:15:14.862] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
-[09Jul2025 17:15:14.862] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found cameraoverhaul.mixins.json:GameRendererMixin
-[09Jul2025 17:15:14.899] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[09Jul2025 17:15:14.901] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER)
-[09Jul2025 17:15:14.902] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.LocalPlayer was not found cameraoverhaul.mixins.json:LocalPlayerMixin
-[09Jul2025 17:15:14.933] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[09Jul2025 17:15:15.530] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.48 s after launch)
-[09Jul2025 17:15:15.744] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[09Jul2025 17:15:15.744] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[09Jul2025 17:15:15.973] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zed000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09Jul2025 17:15:17.612] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2078 milliseconds
-[09Jul2025 17:15:19.081] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zfm000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09Jul2025 17:15:19.595] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[09Jul2025 17:15:20.700] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
-[09Jul2025 17:15:21.187] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[09Jul2025 17:15:21.563] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Welcome to MTS VERSION: 22.17.0
-[09Jul2025 17:15:21.761] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
-[09Jul2025 17:15:21.761] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
-[09Jul2025 17:15:21.983] [modloading-worker-0/INFO] [croissantnova.sanitydim.SanityMod/]: Applying dimension config example.toml
-[09Jul2025 17:15:22.580] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Could not do model-based legacy compats on mtsofficialpack:engineamci4.  Lights and treads will likely not be present on this model.
-[09Jul2025 17:15:22.581] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: For input string: "roller2"
-[09Jul2025 17:15:23.780] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: ConfigSystem failed to save modified config files.  Report to the mod author!
-[09Jul2025 17:15:23.781] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Cannot invoke "java.io.File.toPath()" because "minecrafttransportsimulator.systems.ConfigSystem.clientFile" is null
-[09Jul2025 17:15:28.413] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[09Jul2025 17:15:28.414] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
-[09Jul2025 17:15:28.731] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[09Jul2025 17:15:29.008] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.3.9 initializing...
-[09Jul2025 17:15:29.029] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
-[09Jul2025 17:15:29.155] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[09Jul2025 17:15:29.156] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[09Jul2025 17:15:29.353] [modloading-worker-0/INFO] [me.steinborn.krypton.mod.shared.Krypton/]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[09Jul2025 17:15:29.458] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[09Jul2025 17:15:29.458] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[09Jul2025 17:15:29.458] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[09Jul2025 17:15:29.460] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[09Jul2025 17:15:29.460] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[09Jul2025 17:15:29.460] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[09Jul2025 17:15:29.460] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[09Jul2025 17:15:29.460] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[09Jul2025 17:15:29.461] [main/INFO] [journeymap/]: Initializing Packet Registries
-[09Jul2025 17:15:29.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[09Jul2025 17:15:29.673] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[09Jul2025 17:15:29.935] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
-[09Jul2025 17:15:29.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
-[09Jul2025 17:15:29.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cameraoverhaul] Starting version check at https://github.com/Mirsario/Minecraft-CameraOverhaul/blob/dev/meta/ForgeUpdateCheck.json?raw=true
-[09Jul2025 17:15:29.980] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[09Jul2025 17:15:29.981] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[09Jul2025 17:15:30.012] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[09Jul2025 17:15:30.022] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[09Jul2025 17:15:30.027] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[09Jul2025 17:15:30.032] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
-[09Jul2025 17:15:30.090] [main/INFO] [toughasnails/]: Serene Seasons detected. Enabling season modifier.
-[09Jul2025 17:15:30.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cameraoverhaul] Found status: UP_TO_DATE Current: 2.0.4-forge+mc.1.19.0-1.19.2 Target: null
-[09Jul2025 17:15:30.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Jul2025 17:15:30.479] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Jul2025 17:15:30.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.5.0 Target: null
-[09Jul2025 17:15:30.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[09Jul2025 17:15:30.638] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-kevin_trophy (version 1.0.0 -> MISSING)
-voicechat (version 1.19.2-2.5.30 -> MISSING)
-Things may not work well.
-[09Jul2025 17:15:31.211] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
-[09Jul2025 17:15:31.212] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
-[09Jul2025 17:15:31.232] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	kevin_trophy:blister_zombie: 142
-	kevin_trophy:crawler_zombie: 143
-	kevin_trophy:kevmo: 141
-	kevin_trophy:kevmo_prime: 146
-	kevin_trophy:projectile_spitter_zombie: 145
-	kevin_trophy:spitter_zombie: 144
-	kevin_trophy:zombie_brute: 140
-
-[09Jul2025 17:15:31.233] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	kevin_trophy:blister_zombie_spawn_egg: 1954
-	kevin_trophy:crawler_zombie_spawn_egg: 1955
-	kevin_trophy:kevmo_spawn_egg: 1953
-	kevin_trophy:spitter_zombie_spawn_egg: 1956
-	kevin_trophy:zombie_brute_spawn_egg: 1952
-
-[09Jul2025 17:15:31.238] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 12 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[09Jul2025 17:15:31.239] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
-    kevin_trophy:blister_zombie_spawn_egg
-    kevin_trophy:crawler_zombie_spawn_egg
-    kevin_trophy:kevmo_spawn_egg
-    kevin_trophy:spitter_zombie_spawn_egg
-    kevin_trophy:zombie_brute_spawn_egg
-
-Missing minecraft:entity_type:
-    kevin_trophy:blister_zombie
-    kevin_trophy:crawler_zombie
-    kevin_trophy:kevmo
-    kevin_trophy:kevmo_prime
-    kevin_trophy:projectile_spitter_zombie
-    kevin_trophy:spitter_zombie
-    kevin_trophy:zombie_brute
-
-
-[09Jul2025 17:15:31.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
-[09Jul2025 17:15:31.239] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[09Jul2025 17:15:31.240] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[09Jul2025 17:15:31.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantszombies:blister_zombie_spawn_egg Expected: 1963 Got: 2489
-[09Jul2025 17:15:31.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantszombies:crawler_spawn_egg Expected: 1964 Got: 2490
-[09Jul2025 17:15:31.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantszombies:zombie_brute_spawn_egg Expected: 1965 Got: 2491
-[09Jul2025 17:15:31.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantszombies:spitter_spawn_egg Expected: 1966 Got: 2492
-[09Jul2025 17:15:31.252] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantszombies:blister_zombie Expected: 142 Got: 155
-[09Jul2025 17:15:31.253] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantszombies:crawler Expected: 143 Got: 156
-[09Jul2025 17:15:31.253] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantszombies:spitter Expected: 144 Got: 157
-[09Jul2025 17:15:31.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantszombies:spitter_projectile Expected: 145 Got: 181
-[09Jul2025 17:15:31.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantszombies:zombie_brute Expected: 146 Got: 182
-[09Jul2025 17:15:31.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[09Jul2025 17:15:31.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[09Jul2025 17:15:31.715] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[10Jul2025 02:29:05.080] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[10Jul2025 02:29:05.086] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[10Jul2025 02:29:06.549] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Jaja/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[10Jul2025 02:29:06.962] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
+[10Jul2025 02:29:06.965] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[10Jul2025 02:29:06.967] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[10Jul2025 02:29:06.970] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Jaja/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[10Jul2025 02:29:07.313] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[10Jul2025 02:29:10.202] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[10Jul2025 02:29:10.211] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Jul2025 02:29:10.260] [main/ERROR] [mixin/]: Mixin config cameraoverhaul.mixins.json does not specify "minVersion" property
+[10Jul2025 02:29:10.295] [main/ERROR] [mixin/]: Mixin config noseenotick.mixins.json does not specify "minVersion" property
+[10Jul2025 02:29:10.394] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [mcinterface1192.mixin.MixinConnector]
+[10Jul2025 02:29:10.400] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[10Jul2025 02:29:10.602] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[10Jul2025 02:29:10.606] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[10Jul2025 02:29:10.632] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[10Jul2025 02:29:10.664] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 81 options available, 0 override(s) found
+[10Jul2025 02:29:10.680] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2025 02:29:11.996] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
+[10Jul2025 02:29:11.996] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
+[10Jul2025 02:29:11.996] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found cameraoverhaul.mixins.json:CameraMixin
+[10Jul2025 02:29:12.004] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[10Jul2025 02:29:12.004] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[10Jul2025 02:29:12.004] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found cameraoverhaul.mixins.json:GameRendererMixin
+[10Jul2025 02:29:12.008] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[10Jul2025 02:29:12.008] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER)
+[10Jul2025 02:29:12.008] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.LocalPlayer was not found cameraoverhaul.mixins.json:LocalPlayerMixin
+[10Jul2025 02:29:12.040] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[10Jul2025 02:29:12.488] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.45 s after launch)
+[10Jul2025 02:29:12.701] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[10Jul2025 02:29:12.701] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[10Jul2025 02:29:12.855] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zed000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[10Jul2025 02:29:14.025] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1533 milliseconds
+[10Jul2025 02:29:15.563] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zfm000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[10Jul2025 02:29:15.994] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[10Jul2025 02:29:17.053] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[10Jul2025 02:29:17.607] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[10Jul2025 02:29:18.008] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Welcome to MTS VERSION: 22.17.0
+[10Jul2025 02:29:18.258] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
+[10Jul2025 02:29:18.258] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
+[10Jul2025 02:29:18.430] [modloading-worker-0/INFO] [croissantnova.sanitydim.SanityMod/]: Applying dimension config example.toml
+[10Jul2025 02:29:19.081] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Could not do model-based legacy compats on mtsofficialpack:engineamci4.  Lights and treads will likely not be present on this model.
+[10Jul2025 02:29:19.083] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: For input string: "roller2"
+[10Jul2025 02:29:20.445] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: ConfigSystem failed to save modified config files.  Report to the mod author!
+[10Jul2025 02:29:20.445] [modloading-worker-0/ERROR] [mcinterface1192.InterfaceLoader/]: MTSERROR: Cannot invoke "java.io.File.toPath()" because "minecrafttransportsimulator.systems.ConfigSystem.clientFile" is null
+[10Jul2025 02:29:25.293] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[10Jul2025 02:29:25.293] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[10Jul2025 02:29:25.620] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[10Jul2025 02:29:25.916] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.3.9 initializing...
+[10Jul2025 02:29:25.943] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[10Jul2025 02:29:26.020] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[10Jul2025 02:29:26.021] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[10Jul2025 02:29:26.077] [modloading-worker-0/INFO] [me.steinborn.krypton.mod.shared.Krypton/]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[10Jul2025 02:29:26.200] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[10Jul2025 02:29:26.202] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[10Jul2025 02:29:26.202] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[10Jul2025 02:29:26.202] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[10Jul2025 02:29:26.202] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[10Jul2025 02:29:26.207] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[10Jul2025 02:29:26.207] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[10Jul2025 02:29:26.208] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[10Jul2025 02:29:26.209] [main/INFO] [journeymap/]: Initializing Packet Registries
+[10Jul2025 02:29:26.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10Jul2025 02:29:26.443] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[10Jul2025 02:29:26.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[10Jul2025 02:29:26.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cameraoverhaul] Starting version check at https://github.com/Mirsario/Minecraft-CameraOverhaul/blob/dev/meta/ForgeUpdateCheck.json?raw=true
+[10Jul2025 02:29:26.749] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[10Jul2025 02:29:26.794] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[10Jul2025 02:29:26.804] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10Jul2025 02:29:26.823] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10Jul2025 02:29:26.844] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10Jul2025 02:29:26.847] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[10Jul2025 02:29:26.856] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[10Jul2025 02:29:26.915] [main/INFO] [toughasnails/]: Serene Seasons detected. Enabling season modifier.
+[10Jul2025 02:29:27.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cameraoverhaul] Found status: UP_TO_DATE Current: 2.0.4-forge+mc.1.19.0-1.19.2 Target: null
+[10Jul2025 02:29:27.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Jul2025 02:29:27.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.5.0 Target: null
+[10Jul2025 02:29:27.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[10Jul2025 02:29:27.348] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Jul2025 02:29:27.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[10Jul2025 02:29:27.904] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
+[10Jul2025 02:29:27.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[10Jul2025 02:29:27.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[10Jul2025 02:29:28.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[10Jul2025 02:29:28.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[10Jul2025 02:29:28.186] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2376!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2376!/:?]
@@ -153,22 +99,21 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2376!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2376!/:?]
 	... 6 more
-[09Jul2025 17:15:31.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
-[09Jul2025 17:15:31.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: AHEAD Current: 1.19.2-1.2.2 Target: null
-[09Jul2025 17:15:31.890] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Jaja/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23192!/assets/.mcassetsroot' uses unexpected schema
-[09Jul2025 17:15:31.891] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Jaja/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23192!/data/.mcassetsroot' uses unexpected schema
-[09Jul2025 17:15:32.067] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zeh000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09Jul2025 17:15:44.700] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:kevin_trophy
-[09Jul2025 17:15:44.700] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:voicechat
-[09Jul2025 17:15:47.556] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
-[09Jul2025 17:15:47.960] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:starsteel_pickaxe (from enlightend-5.0.12-1.19.2.jar), enlightened_end:tenebrium_pickaxe (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:starsteel_pickaxe (from enlightend-5.0.12-1.19.2.jar), 
+[10Jul2025 02:29:28.187] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[10Jul2025 02:29:28.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: AHEAD Current: 1.19.2-1.2.2 Target: null
+[10Jul2025 02:29:28.312] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Jaja/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[10Jul2025 02:29:28.318] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Jaja/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[10Jul2025 02:29:28.571] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zeh000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[10Jul2025 02:29:39.390] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
+[10Jul2025 02:29:39.805] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:starsteel_pickaxe (from enlightend-5.0.12-1.19.2.jar), enlightened_end:tenebrium_pickaxe (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:starsteel_pickaxe (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:tenebrium_pickaxe (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:47.962] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:enduring_waste (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voidsteel_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_plate_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_glass (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_glass_pane (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:enduring_waste (from enlightend-5.0.12-1.19.2.jar), 
+[10Jul2025 02:29:39.811] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:cerulean_stalk_block (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:cerulean_stalk_block (from enlightend-5.0.12-1.19.2.jar)
+[10Jul2025 02:29:39.805] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:enduring_waste (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voidsteel_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_plate_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_glass (from enlightend-5.0.12-1.19.2.jar), enlightened_end:adamantite_glass_pane (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:enduring_waste (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:voidsteel_block (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:adamantite_plate_block (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:adamantite_glass (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:adamantite_glass_pane (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:47.972] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:chiseled_purpur (from enlightend-5.0.12-1.19.2.jar), enlightened_end:purpur_lamp (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infested_end_stone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:congealed_eylium (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:cracked_nullstone_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:chiseled_nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_lamp (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_lamp (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:chiseled_purpur (from enlightend-5.0.12-1.19.2.jar), 
+[10Jul2025 02:29:39.818] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:chiseled_purpur (from enlightend-5.0.12-1.19.2.jar), enlightened_end:purpur_lamp (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infested_end_stone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:congealed_eylium (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_nullstone_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:cracked_nullstone_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:chiseled_nullstone (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nullstone_lamp (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_lamp (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:chiseled_purpur (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:purpur_lamp (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:infested_end_stone (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:congealed_eylium (from enlightend-5.0.12-1.19.2.jar), 
@@ -189,7 +134,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	enlightened_end:chiseled_nullstone (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:nullstone_lamp (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:voikrust_lamp (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:47.972] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:waxed_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheet_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheet_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_sheet_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_sheet_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:repulsium_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:repulsium_cluster (from enlightend-5.0.12-1.19.2.jar), enlightened_end:atractonite_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:atractonite_cluster (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), 
+[10Jul2025 02:29:39.818] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:waxed_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheet_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:infernal_bismuth_sheet_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:warm_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:temperate_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:frosty_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:aquatic_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_sheet_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:dark_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:nebulous_bismuth_sheet_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:prismatic_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:repulsium_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:repulsium_cluster (from enlightend-5.0.12-1.19.2.jar), enlightened_end:atractonite_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:atractonite_cluster (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:waxed_bismuth_slab (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:infernal_bismuth_sheets (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:infernal_bismuth_sheet_stairs (from enlightend-5.0.12-1.19.2.jar), 
@@ -219,7 +164,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	enlightened_end:repulsium_cluster (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:atractonite_block (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:atractonite_cluster (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:47.974] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:malachite_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_pressure_plate (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_button (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:chiseled_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:cracked_voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:end_biome_placer (from enlightend-5.0.12-1.19.2.jar), enlightened_end:transitioning_end_portal (from enlightend-5.0.12-1.19.2.jar), enlightened_end:biome_replace_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:biome_replace_chance (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_tunnel (from enlightend-5.0.12-1.19.2.jar), enlightened_end:ennegel_hang_generate (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_replace (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_replace_chance (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:malachite_pillar (from enlightend-5.0.12-1.19.2.jar), 
+[10Jul2025 02:29:39.819] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:malachite_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:smooth_malachite_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_pressure_plate (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_button (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:polished_voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:chiseled_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:cracked_voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:voikrust_pillar (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_bricks (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_stairs (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_slab (from enlightend-5.0.12-1.19.2.jar), enlightened_end:mossy_voikrust_brick_wall (from enlightend-5.0.12-1.19.2.jar), enlightened_end:end_biome_placer (from enlightend-5.0.12-1.19.2.jar), enlightened_end:transitioning_end_portal (from enlightend-5.0.12-1.19.2.jar), enlightened_end:biome_replace_block (from enlightend-5.0.12-1.19.2.jar), enlightened_end:biome_replace_chance (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_tunnel (from enlightend-5.0.12-1.19.2.jar), enlightened_end:ennegel_hang_generate (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_replace (from enlightend-5.0.12-1.19.2.jar), enlightened_end:enderneath_replace_chance (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:malachite_pillar (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:smooth_malachite (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:smooth_malachite_stairs (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:smooth_malachite_slab (from enlightend-5.0.12-1.19.2.jar), 
@@ -257,8 +202,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	enlightened_end:ennegel_hang_generate (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:enderneath_replace (from enlightend-5.0.12-1.19.2.jar), 
 	enlightened_end:enderneath_replace_chance (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:47.976] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [enlightened_end:cerulean_stalk_block (from enlightend-5.0.12-1.19.2.jar)] as it is missing following references: enlightened_end:cerulean_stalk_block (from enlightend-5.0.12-1.19.2.jar)
-[09Jul2025 17:15:48.296] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file atea:attachments/muzzle_rotex5i from atea:recipes/attachments/muzzle_rotex5i.json
+[10Jul2025 02:29:40.022] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file atea:attachments/muzzle_rotex5i from atea:recipes/attachments/muzzle_rotex5i.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 15 column 6 path $.materials[2]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
@@ -282,7 +226,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2376!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	... 11 more
-[09Jul2025 17:15:48.315] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file arip:attachments/tacit from arip:recipes/attachments/tacit.json
+[10Jul2025 02:29:40.038] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file arip:attachments/tacit from arip:recipes/attachments/tacit.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 9 column 14 path $.materials[2]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
@@ -306,7 +250,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2376!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	... 11 more
-[09Jul2025 17:15:48.918] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file zugzwang:tacz/gun/g36k from zugzwang:recipes/tacz/gun/g36k.json
+[10Jul2025 02:29:40.553] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file zugzwang:tacz/gun/g36k from zugzwang:recipes/tacz/gun/g36k.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 7 column 9 path $.materials[0].item.tag
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
@@ -332,7 +276,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2376!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	... 11 more
-[09Jul2025 17:15:48.923] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file zugzwang:tacz/gun/qbz_95 from zugzwang:recipes/tacz/gun/qbz_95.json
+[10Jul2025 02:29:40.557] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file zugzwang:tacz/gun/qbz_95 from zugzwang:recipes/tacz/gun/qbz_95.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 8 column 4 path $.materials[0].count
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
@@ -357,158 +301,195 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2376!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23192!/:?]
 	... 11 more
-[09Jul2025 17:15:49.106] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe famersdelight:adamantite_knife_smithing: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:iron_knife'
-[09Jul2025 17:15:49.149] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-[09Jul2025 17:15:49.157] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe enlightened_end:blast_void_shale_bismuth_ore: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:deleted_mod_element'
-[09Jul2025 17:15:49.172] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe health_and_disease:my_book_recipe_shapeless: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-[09Jul2025 17:15:49.268] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe enlightened_end:smelt_void_shale_bismuth_ore: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:deleted_mod_element'
-[09Jul2025 17:15:49.275] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 61 recipes
-[09Jul2025 17:15:49.517] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecraft:advancement_reward/electroguidebook: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'electrodynamics:guidebook'
-[09Jul2025 17:15:49.600] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table enlightened_end:entities/eidolon: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'enlightened_end:everglint'
-[09Jul2025 17:15:49.619] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table health_and_disease:grant_book_on_first_join: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-[09Jul2025 17:15:49.956] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2811 advancements
-[09Jul2025 17:15:50.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[09Jul2025 17:15:50.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Jul2025 17:15:50.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Jul2025 17:15:50.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Jul2025 17:15:50.570] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Jul2025 17:15:50.594] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Jul2025 17:15:50.700] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[09Jul2025 17:15:50.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mutantszombies-server.toml is not correct. Correcting
-[09Jul2025 17:15:50.750] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blisterZombiesSpawnNaturally was corrected from null to its default, true. 
-[09Jul2025 17:15:50.751] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crawlersSpawnNaturally was corrected from null to its default, true. 
-[09Jul2025 17:15:50.752] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spitterZombiesSpawnNaturally was corrected from null to its default, true. 
-[09Jul2025 17:15:50.753] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key zombieBrutesSpawnNaturally was corrected from null to its default, true. 
-[09Jul2025 17:15:50.754] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
-[09Jul2025 17:15:50.764] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
-[09Jul2025 17:15:50.889] [Server thread/INFO] [Framework/]: Loading server configs...
-[09Jul2025 17:15:50.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Jul2025 17:15:50.962] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[09Jul2025 17:15:51.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Jul2025 17:15:53.399] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:53.402] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:53.403] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:53.467] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:53.579] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:54.106] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:54.218] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [7, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.221] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [7, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.230] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [8, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.231] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [8, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.238] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.239] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.241] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:54.613] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:55.077] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:55.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:55.760] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 0, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.763] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.763] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.763] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.767] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.768] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 0, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.768] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.769] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:55.920] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:55.923] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:55.924] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.026] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.027] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.027] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.032] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.034] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.035] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.040] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.040] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.041] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.051] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.052] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.071] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.074] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.080] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-11, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.081] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-11, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.083] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-10, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.089] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-1, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.090] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-1, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.103] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.104] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.106] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.106] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.110] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.111] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.117] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Jul2025 17:15:56.125] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [2, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.125] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [2, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.129] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [3, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.129] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [3, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.131] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.132] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.134] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.135] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.139] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.142] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.145] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.145] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
-[09Jul2025 17:15:56.152] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.152] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
-[09Jul2025 17:15:56.638] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[09Jul2025 17:15:56.884] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5309 ms
-[09Jul2025 17:15:56.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.194s)! For help, type "help"
-[09Jul2025 17:15:57.150] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Jul2025 17:15:57.223] [Server thread/WARN] [ModernFix/]: Dedicated server took 60.17 seconds to load
-[09Jul2025 17:17:33.421] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player TheProx_ is 565b87a7-581d-4f97-a8a6-490f7bfe467b
-[09Jul2025 17:17:36.214] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f36954f
-[09Jul2025 17:17:36.243] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheProx_[/127.96.146.235:55335] logged in with entity id 96 at (445.69999998807907, 3.0, 202.581165390842)
-[09Jul2025 17:17:36.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ joined the game
-[09Jul2025 17:17:36.418] [Server thread/INFO] [Jade/]: Syncing config to TheProx_ (565b87a7-581d-4f97-a8a6-490f7bfe467b)
-[09Jul2025 17:17:39.121] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id kevin_trophy:blister_zombie
-[09Jul2025 17:19:47.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
-[09Jul2025 17:20:08.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:22:54.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
-[09Jul2025 17:22:59.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:23:37.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
-[09Jul2025 17:24:17.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:32:08.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Teleported TheProx_ to 608.500000, 62.000000, 9281.500000]
-[09Jul2025 17:32:09.637] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2108ms or 42 ticks behind
-[09Jul2025 17:32:29.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
-[09Jul2025 17:32:40.302] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheProx_ moved too quickly! -9.668856008299429,2.665282372087134,-2.418690487402273
-[09Jul2025 17:32:57.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:33:49.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 17:34:09.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:37:42.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 17:38:18.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:38:30.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 17:38:53.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 17:39:24.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 17:39:27.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:08:34.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:08:46.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:17:48.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:17:55.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has reached the goal [The Factory Must Grow!]
-[09Jul2025 18:20:58.443] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@34bfbaad
-[09Jul2025 18:23:46.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:28:00.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:31:44.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:31:45.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:31:46.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
-[09Jul2025 18:31:51.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:31:53.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:31:54.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:37:18.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:37:40.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
-[09Jul2025 18:37:43.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
-[09Jul2025 18:37:55.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheProx_ lost connection: Disconnected
-[09Jul2025 18:37:55.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ left the game
-[09Jul2025 18:37:58.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[09Jul2025 18:37:58.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09Jul2025 18:37:58.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09Jul2025 18:37:58.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09Jul2025 18:37:59.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09Jul2025 18:37:59.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09Jul2025 18:37:59.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09Jul2025 18:37:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09Jul2025 18:37:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09Jul2025 18:37:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09Jul2025 18:37:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09Jul2025 18:37:59.416] [Server thread/INFO] [Framework/]: Unloading server configs...
-[09Jul2025 18:37:59.417] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[10Jul2025 02:29:40.860] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe famersdelight:adamantite_knife_smithing: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:iron_knife'
+[10Jul2025 02:29:40.903] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+[10Jul2025 02:29:40.910] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe enlightened_end:blast_void_shale_bismuth_ore: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:deleted_mod_element'
+[10Jul2025 02:29:40.931] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe health_and_disease:my_book_recipe_shapeless: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+[10Jul2025 02:29:41.033] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe enlightened_end:smelt_void_shale_bismuth_ore: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:deleted_mod_element'
+[10Jul2025 02:29:41.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 61 recipes
+[10Jul2025 02:29:41.317] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecraft:advancement_reward/electroguidebook: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'electrodynamics:guidebook'
+[10Jul2025 02:29:41.395] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table enlightened_end:entities/eidolon: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'enlightened_end:everglint'
+[10Jul2025 02:29:41.417] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table health_and_disease:grant_book_on_first_join: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+[10Jul2025 02:29:41.741] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2811 advancements
+[10Jul2025 02:29:42.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[10Jul2025 02:29:42.320] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Jul2025 02:29:42.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Jul2025 02:29:42.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jul2025 02:29:42.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Jul2025 02:29:42.568] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Jul2025 02:29:42.694] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Jul2025 02:29:42.730] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
+[10Jul2025 02:29:42.748] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[10Jul2025 02:29:42.911] [Server thread/INFO] [Framework/]: Loading server configs...
+[10Jul2025 02:29:42.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Jul2025 02:29:43.197] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[10Jul2025 02:29:43.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jul2025 02:29:44.307] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.326] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.399] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.399] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:44.428] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.431] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.435] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [6, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.441] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [7, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.442] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [7, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.449] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [8, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:44.450] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [8, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.048] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.180] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:46.528] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.631] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.750] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.772] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.804] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:46.808] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:46.814] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:46.816] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:46.825] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.829] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.830] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [5, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.894] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:46.930] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.930] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.931] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [9, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.935] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 0, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.936] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.937] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.937] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [10, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:46.982] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:47.071] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:47.147] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-1, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.147] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-1, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.152] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.152] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.158] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.158] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.269] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.270] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.278] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.279] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.288] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.289] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.294] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-11, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.294] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-11, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.298] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-10, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.306] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.307] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 0, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.307] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 1, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -2, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.326] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [-12, -1, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:glowshroom_forest -> using default)
+[10Jul2025 02:29:47.332] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [3, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.333] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [3, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.338] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 2, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.339] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.340] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [4, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.399] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [2, 3, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.402] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [2, 4, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: darkerdepths:molten_cavern -> using default)
+[10Jul2025 02:29:47.486] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 02:29:48.148] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[10Jul2025 02:29:48.454] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5007 ms
+[10Jul2025 02:29:48.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.782s)! For help, type "help"
+[10Jul2025 02:29:48.511] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Jul2025 02:29:48.545] [Server thread/WARN] [ModernFix/]: Dedicated server took 46.502 seconds to load
+[10Jul2025 02:30:08.707] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player TheProx_ is 565b87a7-581d-4f97-a8a6-490f7bfe467b
+[10Jul2025 02:30:11.675] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@322a6134
+[10Jul2025 02:30:11.730] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheProx_[/127.96.146.235:40725] logged in with entity id 94 at (236.17338414648538, 77.0, 9389.477427958762)
+[10Jul2025 02:30:11.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ joined the game
+[10Jul2025 02:30:12.001] [Server thread/INFO] [Jade/]: Syncing config to TheProx_ (565b87a7-581d-4f97-a8a6-490f7bfe467b)
+[10Jul2025 02:30:17.653] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[10Jul2025 02:41:10.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Not Today, Thank You]
+[10Jul2025 02:45:41.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Efficiency V to TheProx_'s item]
+[10Jul2025 02:45:44.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Fortune III to TheProx_'s item]
+[10Jul2025 02:46:22.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Unbreaking III to TheProx_'s item]
+[10Jul2025 02:46:31.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Raw Cassiterite Ore]
+[10Jul2025 02:49:49.150] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/168, l='ServerLevel[world]', x=276.41, y=53.00, z=9418.72] died, message: 'Cleric hit the ground too hard whilst trying to escape Zombie'
+[10Jul2025 02:57:23.511] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3ecef08b
+[10Jul2025 02:57:54.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Isn't It Iron Pick]
+[10Jul2025 02:58:40.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Efficiency V to TheProx_'s item]
+[10Jul2025 03:01:23.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:01:27.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:01:30.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:01:42.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:07:59.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:08:09.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:08:20.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:08:30.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:10:57.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set the time to 1000]
+[10Jul2025 03:11:18.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set the time to 552000]
+[10Jul2025 03:11:27.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:11:33.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:23:04.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Gave 1 [Iron Axe] to TheProx_]
+[10Jul2025 03:32:58.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:33:32.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 03:33:53.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:34:22.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Teleported 2 entities to TheProx_]
+[10Jul2025 03:39:17.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:39:24.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Efficiency V to TheProx_'s item]
+[10Jul2025 03:39:28.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Unbreaking III to TheProx_'s item]
+[10Jul2025 03:39:45.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:40:11.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:43:56.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:45:16.303] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/17303, l='ServerLevel[world]', x=-197.99, y=66.94, z=9248.50] died, message: 'Unemployed was slain by Zombie'
+[10Jul2025 03:45:30.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Unbreaking III to TheProx_'s item]
+[10Jul2025 03:45:31.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Efficiency V to TheProx_'s item]
+[10Jul2025 03:45:34.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied enchantment Fortune III to TheProx_'s item]
+[10Jul2025 03:46:04.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:46:07.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:46:21.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:46:27.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Raw Vanadinite Crystals]
+[10Jul2025 03:49:53.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Raw Fluorite Crystals]
+[10Jul2025 03:50:25.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:50:34.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:50:54.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Raw Argentite Ore]
+[10Jul2025 03:51:28.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:51:52.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:51:54.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:51:55.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 03:52:03.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:52:06.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:52:37.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 03:52:57.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:56:21.789] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=274, y=-1, z=9325} BlockPos{x=275, y=-2, z=9325}
+[10Jul2025 03:57:06.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Raw Galena Ore]
+[10Jul2025 03:58:00.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 03:58:15.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheProx_ moved too quickly! -1.0652845923369227,3.750000149011612,9.958105734845958
+[10Jul2025 03:58:27.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set the time to 1000]
+[10Jul2025 03:58:37.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set the time to 552000]
+[10Jul2025 03:58:52.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:59:20.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 03:59:41.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 03:59:57.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Applied effect Instant Health to TheProx_]
+[10Jul2025 04:00:16.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Teleported 3 entities to TheProx_]
+[10Jul2025 04:00:18.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 04:00:21.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 04:00:29.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [Best Friends Forever]
+[10Jul2025 04:00:36.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ has made the advancement [The Parrots and the Bats]
+[10Jul2025 04:00:42.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Teleported 5 entities to TheProx_]
+[10Jul2025 04:01:09.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 04:12:16.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 04:12:31.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 04:13:12.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 04:13:14.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 04:13:23.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Teleported 11 entities to TheProx_]
+[10Jul2025 04:14:25.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Spectator Mode]
+[10Jul2025 04:14:37.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 04:15:18.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Creative Mode]
+[10Jul2025 04:15:32.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheProx_: Set own game mode to Survival Mode]
+[10Jul2025 04:15:53.759] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheProx_ lost connection: Disconnected
+[10Jul2025 04:15:53.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheProx_ left the game
+[10Jul2025 04:15:59.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Jul2025 04:15:59.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Jul2025 04:15:59.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Jul2025 04:15:59.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Jul2025 04:15:59.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10Jul2025 04:15:59.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10Jul2025 04:15:59.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10Jul2025 04:15:59.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Jul2025 04:15:59.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Jul2025 04:15:59.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Jul2025 04:15:59.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Jul2025 04:15:59.934] [Server thread/INFO] [Framework/]: Unloading server configs...
+[10Jul2025 04:15:59.934] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
