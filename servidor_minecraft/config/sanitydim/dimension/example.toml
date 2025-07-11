@@ -5,4 +5,4 @@ applied_dimensions = [ "minecraft:example_dimension1", "someothermodid:example_d
 [sanity]
 	[sanity.passive]
 		# Now that's what I call hardcore
-		monster = -100.0
+		monster = 0.0

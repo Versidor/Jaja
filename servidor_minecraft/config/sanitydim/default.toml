@@ -20,7 +20,7 @@
 		raining = -0.2
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
-		hunger_threshold = 8
+		hunger_threshold = 6
 		#Players with food levels at and below <hunger_threshold> gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
 		hungry = -0.2
