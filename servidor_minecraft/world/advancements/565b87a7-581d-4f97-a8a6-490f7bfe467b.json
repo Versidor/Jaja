@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-15 01:55:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-07-09 17:34:22 +0000"
@@ -629,6 +635,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-15 01:55:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-07-10 02:32:19 +0000"
@@ -673,10 +685,11 @@
   },
   "mekanism:chemical_crystallizer": {
     "criteria": {
+      "chemical_dissolution_chamber": "2025-07-15 01:34:20 +0000",
       "chemical_crystallizer": "2025-07-14 23:35:51 +0000",
       "chemical_washer": "2025-07-14 23:19:18 +0000"
     },
-    "done": false
+    "done": true
   },
   "securitycraft:recipes/securitycraft/reinforced_light_gray_stained_glass_pane_from_glass": {
     "criteria": {
@@ -2136,6 +2149,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-06-28 23:01:37 +0000"
+    },
+    "done": true
+  },
+  "mekanism:item_transport": {
+    "criteria": {
+      "basic_logistical_transporter": "2025-07-15 01:59:25 +0000"
     },
     "done": true
   },
