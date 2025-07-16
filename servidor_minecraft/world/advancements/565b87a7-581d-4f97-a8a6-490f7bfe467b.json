@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
@@ -377,6 +383,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/dark_oak_cutting_board": {
     "criteria": {
       "has_dark_oak_planks": "2025-07-10 02:32:19 +0000"
@@ -509,6 +521,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/light_gray_stool": {
     "criteria": {
       "has_planks": "2025-06-28 22:17:52 +0000"
@@ -548,6 +566,18 @@
   "securitycraft:recipes/securitycraft/reinforced_magenta_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/mason_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -674,6 +704,12 @@
   "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2025-07-12 05:07:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -829,6 +865,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
@@ -874,6 +916,12 @@
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2025-07-10 19:11:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -982,6 +1030,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-06-28 22:17:45 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -1243,6 +1297,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "toughasnails:recipes/combat/leaf_helmet": {
     "criteria": {
       "has_leaves": "2025-07-09 17:33:56 +0000"
@@ -1306,6 +1366,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-07-10 19:16:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -1374,6 +1440,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/spruce_kitchen_sink": {
     "criteria": {
       "has_copper_ingot": "2025-07-09 17:59:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-07-15 17:58:56 +0000"
     },
     "done": true
   },
@@ -1452,6 +1524,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2025-06-28 22:58:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/tinkerer_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -1605,6 +1683,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-15 18:20:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-07-11 01:10:35 +0000"
@@ -1683,6 +1767,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-06-28 22:21:38 +0000"
@@ -1704,6 +1794,12 @@
   "securitycraft:recipes/securitycraft/keypad_frame": {
     "criteria": {
       "has_redstone": "2025-07-10 19:55:31 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -1749,6 +1845,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/restock_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-06-28 23:01:37 +0000"
@@ -1779,6 +1881,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/botanist_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "mekanism:energy_transport": {
     "criteria": {
       "basic_universal_cable": "2025-07-12 05:25:12 +0000"
@@ -1800,6 +1908,12 @@
   "electrodynamics:raworevanadium": {
     "criteria": {
       "HasRawOre": "2025-07-10 03:46:27 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -2074,6 +2188,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_the_recipe": "2025-07-15 18:25:22 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/light_blue_sofa": {
     "criteria": {
       "has_planks": "2025-06-28 22:17:52 +0000"
@@ -2083,6 +2203,12 @@
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2025-07-12 04:08:53 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/glassblower_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -2203,6 +2329,12 @@
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack_from_copper": {
     "criteria": {
       "has_copper_backpack": "2025-07-09 17:59:48 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/anvil_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -2332,6 +2464,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/battery_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/black_trampoline": {
     "criteria": {
       "has_string": "2025-06-28 22:56:03 +0000"
@@ -2341,6 +2479,18 @@
   "refurbished_furniture:recipes/refurbished_furniture/knife": {
     "criteria": {
       "has_string": "2025-06-28 22:56:03 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/tool_swapper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -2380,6 +2530,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/philosopher_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_yellow_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
@@ -2392,6 +2548,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-07-15 17:58:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-28 22:26:08 +0000"
@@ -2401,6 +2563,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -2527,6 +2695,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/dark_oak_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -2752,6 +2926,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-07-10 19:53:46 +0000"
@@ -2833,6 +3013,12 @@
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/tank_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -3082,6 +3268,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/electrified_iron_fence": {
     "criteria": {
       "has_iron": "2025-06-28 22:59:41 +0000"
@@ -3244,6 +3436,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/carpenter_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
     "criteria": {
       "has_deepslate_iron_ore": "2025-07-14 23:17:25 +0000"
@@ -3253,6 +3451,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/acacia_hedge": {
     "criteria": {
       "has_acacia_leaves": "2025-07-09 17:33:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-07-15 18:19:34 +0000"
     },
     "done": true
   },
@@ -3394,6 +3598,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/chipped/shepherd_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/jungle_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
@@ -3403,10 +3613,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-07-14 01:29:50 +0000",
+      "minecraft:pillager": "2025-07-15 17:50:53 +0000",
       "minecraft:skeleton": "2025-07-10 02:37:03 +0000",
+      "minecraft:ghast": "2025-07-15 18:16:54 +0000",
       "minecraft:hoglin": "2025-07-14 01:21:12 +0000",
       "minecraft:spider": "2025-06-28 23:02:20 +0000",
       "minecraft:creeper": "2025-06-28 22:23:54 +0000",
+      "minecraft:zombified_piglin": "2025-07-15 18:17:02 +0000",
       "minecraft:witch": "2025-07-10 19:52:09 +0000",
       "minecraft:cave_spider": "2025-06-28 22:56:02 +0000",
       "minecraft:piglin": "2025-07-14 01:17:58 +0000",
@@ -3431,6 +3644,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/birch_storage_cabinet": {
     "criteria": {
       "has_birch_planks": "2025-06-28 22:17:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-15 18:20:39 +0000"
     },
     "done": true
   },
@@ -3512,6 +3731,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-07-15 17:50:54 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_tool_swapper_upgrade": {
+    "criteria": {
+      "has_tool_swapper_upgrade": "2025-07-15 18:50:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-07-10 02:40:59 +0000"
@@ -3569,6 +3800,12 @@
   "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2025-07-14 00:50:18 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/everlasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -3878,6 +4115,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_1_from_starter": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2025-06-28 22:17:45 +0000"
@@ -4102,6 +4345,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-07-15 18:30:02 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_magenta_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
@@ -4135,6 +4384,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/acacia_storage_jar": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/refurbished_furniture/constructing/oak_hedge": {
+    "criteria": {
+      "has_oak_leaves": "2025-07-15 18:24:42 +0000"
     },
     "done": true
   },
@@ -4366,6 +4621,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-07-15 18:20:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-06-28 23:01:37 +0000"
@@ -4432,6 +4693,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-07-15 18:25:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2025-06-28 22:58:19 +0000"
@@ -4456,11 +4723,13 @@
       "cooked_mutton": "2025-06-28 22:58:42 +0000",
       "cooked_beef": "2025-07-12 05:38:26 +0000",
       "baked_potato": "2025-07-10 19:05:24 +0000",
+      "beetroot_soup": "2025-07-15 18:25:28 +0000",
       "bread": "2025-07-09 17:40:24 +0000",
       "golden_apple": "2025-07-11 00:56:09 +0000",
       "rotten_flesh": "2025-06-28 22:57:23 +0000",
       "melon_slice": "2025-07-10 04:01:46 +0000",
       "beetroot": "2025-07-10 19:34:00 +0000",
+      "golden_carrot": "2025-07-15 18:07:18 +0000",
       "cooked_chicken": "2025-07-12 05:11:24 +0000"
     },
     "done": false
@@ -4513,6 +4782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/red_grill": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
@@ -4522,6 +4797,12 @@
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2025-07-12 04:53:49 +0000"
+    },
+    "done": true
+  },
+  "mekanism:infusing_efficiency": {
+    "criteria": {
+      "enriched_material": "2025-07-15 17:09:50 +0000"
     },
     "done": true
   },
@@ -4717,6 +4998,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "toughasnails:recipes/combat/wool_helmet": {
     "criteria": {
       "has_wool": "2025-06-28 22:58:19 +0000"
@@ -4801,6 +5088,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/refill_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/black_grill": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
@@ -4846,6 +5139,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/light_fridge": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/deposit_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -5203,6 +5502,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_mossy_stone_bricks_from_vanilla_moss": {
     "criteria": {
       "has_moss": "2025-07-09 17:18:37 +0000"
@@ -5272,6 +5577,12 @@
   "mekanism:ultimate_control_circuit": {
     "criteria": {
       "ultimate_control_circuit": "2025-07-14 03:54:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
     },
     "done": true
   },
@@ -5374,6 +5685,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/mangrove_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/inception_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
@@ -5581,6 +5898,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-15 18:32:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
     "criteria": {
       "has_feather": "2025-07-12 03:57:57 +0000"
@@ -5637,6 +5960,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-07-11 01:10:35 +0000"
@@ -5652,6 +5981,12 @@
   "securitycraft:recipes/securitycraft/reinforced_fence_gate": {
     "criteria": {
       "has_iron": "2025-06-28 22:59:41 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-15 18:47:58 +0000"
     },
     "done": true
   },
