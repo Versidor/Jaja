@@ -455,6 +455,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-10 03:57:07 +0000"
@@ -745,6 +751,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-07-16 21:01:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
@@ -1015,15 +1027,33 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_4": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-16 21:01:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2025-07-12 03:36:02 +0000"
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-16 21:00:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 22:59:41 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-16 21:01:12 +0000"
     },
     "done": true
   },
@@ -1440,6 +1470,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/spruce_kitchen_sink": {
     "criteria": {
       "has_copper_ingot": "2025-07-09 17:59:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-07-16 21:01:32 +0000"
     },
     "done": true
   },
@@ -2722,6 +2758,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2025-07-16 21:01:55 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/black_cooler": {
     "criteria": {
       "has_planks": "2025-06-28 22:17:52 +0000"
@@ -3145,6 +3187,12 @@
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-07-10 02:32:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
     },
     "done": true
   },
@@ -4309,6 +4357,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/refurbished_furniture/constructing/orange_lamp": {
     "criteria": {
       "has_planks": "2025-06-28 22:17:52 +0000"
@@ -4669,6 +4723,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-06-28 22:23:57 +0000"
@@ -4965,6 +5025,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/spruce_storage_jar": {
     "criteria": {
       "has_glass": "2025-07-09 17:48:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
     },
     "done": true
   },
@@ -5379,6 +5445,12 @@
   "refurbished_furniture:recipes/refurbished_furniture/constructing/jungle_cutting_board": {
     "criteria": {
       "has_jungle_planks": "2025-07-12 04:53:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2025-07-16 20:58:51 +0000"
     },
     "done": true
   },
